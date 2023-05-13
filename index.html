@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Feliz dia das mães<3 </title>
+
+	<link rel="shortcut icon" href="./midias/envelope.png" type="image/x-icon">
+	<link rel="icon" href="./midias/envelope.png" type="image/x-icon">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Sacramento&family=Zen+Loop&display=swap" rel="stylesheet">
+</head>
+<style>
+	body{
+		background-color: #bf0096;
+	}
+	.box-heart{
+	  position: absolute;
+	  overflow: hidden;
+	  height: 100%;
+	  width: 100%;
+	  margin: 0;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  padding: 0;
+	}
+	.box-heart .heart{
+	  position: absolute;
+	  display: block;
+	  list-style: none;
+	  width: 25px;
+	  height: 25px;
+	  background-image: url('img/heart3.png');
+	  background-size: 100%;
+	  background-repeat: no-repeat;
+	  animation: animate 20s linear infinite;
+	  bottom: -150px;
+	}
+	.box-heart .heart:nth-child(1){
+	  left: 86%;
+	  width: 50px;
+	  height: 50px;
+	  animation-delay: 0s
+	}
+	.box-heart .heart:nth-child(2){
+	  left: 12%;
+	  width: 65px;
+	  height: 65px;
+	  animation-delay: 1.7s;
+	  animation-duration: 10s;
+	}
+	.box-heart .heart:nth-child(3){
+	  left: 70%;
+	  width: 70px;
+	  height: 70px;
+	  animation-duration: 5.5s;
+	}
+	.box-heart .heart:nth-child(4){
+	  left: 42%;
+	  width: 90px;
+	  height: 90px;
+	  animation-delay: 0s;
+	  animation-duration: 11s;
+	}
+	.box-heart .heart:nth-child(5){
+	  left: 65%;
+	  width: 40px;
+	  height: 40px;
+	  animation-delay: 0s;
+	}
+	.box-heart .heart:nth-child(6){
+	  left: 15%;
+	  width: 50px;
+	  height: 50px;
+	  animation-delay: 2.5s;
+	}
+	.box-heart .heart:nth-child(6){
+	  left: 15%;
+	  width: 50px;
+	  height: 50px;
+	  animation-delay: 6.5s;
+	}
+
+	@keyframes animate{
+	  0% {
+	    transform: translateY(0) rotate(-10deg);
+	    opacity: 0.6;
+	  }
+	  
+	  100%{
+	    //transform: translateY(-800px) rotate(360deg);
+	    transform: translateY(-800px);
+	    opacity: 0;
+	  }
+	}
+
+	.box-message{
+		font-family: 'Zen Loop', cursive;
+		font-size: 26px;
+		text-align: center;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 10%;
+		color: #fff;
+		padding: 0 25px;
+	}
+	.text-happy{
+		font-family: 'Sacramento', cursive;
+		font-size: 40px;
+		font-weight: 500;
+	}
+	.left{
+		text-align: left;
+		width: auto;
+	    margin: auto;
+	    display: inline-block;
+	}
+</style>
+<body>
+	<div class="box-heart">
+		<span class="heart"></span>
+		<span class="heart"></span>
+		<span class="heart"></span>
+		<span class="heart"></span>
+		<span class="heart"></span>
+		<span class="heart"></span>
+		<span class="heart"></span>
+	</div>
+
+	<div class="box-message">
+		<p class="left">
+			<b>Mãe</b> Eu te amo ❤️<br>
+			<b>Mãe</b> obg por sempre estar cmg❤️ <br>
+			<b>Mãe</b> vc é minha rainha ❤️ <br>
+			<b>Mãe</b> obg por cuidar de mim ❤️ <br>
+			<b>Mãe</b> vc é maravilhosa ❤️<br>
+			
+		</p>
+		<p>
+			Esta é uma pequena lembrança pra alegrar seu dia e mostrar que é especial pra mim.
+			Obrigada por tudo. <br>
+			Amo você mãe!
+		</p>
+
+		<p class="text-happy">Feliz dia das mães! </p>
+	</div>	
+</body>
+</html>
